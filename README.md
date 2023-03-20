@@ -9,7 +9,7 @@ Information about the Data Challenge (which we are mimicking), held annually, ca
 **Data formats**: Rda files, delimited files. Note, these data files are quite large and generally take a few minutes to download/import.
 
 
-You will need to take a look at the [Data Codebook]() before you can begin to analyze the data. Not all variables will be of interest to you. 
+You will need to take a look at the [Data Codebook](https://drive.google.com/file/d/1_yaUgFcfNQYNU6M1pf6QEyNLe-BrSYEx/view?usp=sharing) before you can begin to analyze the data. Not all variables will be of interest to you. 
 
 
 ## R Data Import Instructions 

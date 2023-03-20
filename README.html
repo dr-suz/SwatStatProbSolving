@@ -362,14 +362,16 @@ annually, can be found here: <a href="https://community.amstat.org/dataexpo/home
 <p><strong>Data formats</strong>: Rda files, delimited files. Note,
 these data files are quite large and generally take a few minutes to
 download/import.</p>
-<p>You will need to take a look at the <a href>Data Codebook</a>
-before you can begin to analyze the data. Not all variables will be of
-interest to you.</p>
+<p>You will need to take a look at the <a href="https://drive.google.com/file/d/1_yaUgFcfNQYNU6M1pf6QEyNLe-BrSYEx/view?usp=sharing">Data
+Codebook</a> before you can begin to analyze the data. Not all variables
+will be of interest to you.</p>
 <div id="r-data-import-instructions" class="section level2">
 <h2>R Data Import Instructions</h2>
 <p>To import the five main R data files, you can run the following lines
 of code:</p>
-<pre><code>## First, set your working directory:
+<pre><code>## First, call (after installing) the required R package and set your working directory:
+#install.packages(&quot;googledrive&quot;)
+library(&quot;googledrive&quot;)
 setwd(&quot;~/Downloads&quot;)
 
 ## Second, download the Rda files from the shared Google Drive:
