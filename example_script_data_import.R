@@ -50,3 +50,14 @@ summary(dat3$V3084) # sex orientation
 summary(dat3$V3034) # theft 
 summary(dat3$V3040) # theft attack or threat 
 summary(dat3$V3042) # attack treat weapon
+
+
+library(tidyverse)
+
+dat2 %>% select(V2021, V2026, V2073, V2076) %>% 
+  drop_na() %>% 
+  filter((V2021=="(05) Mbl hme/trlr no rm")|
+           (V2021=="(06) Mbl hme/trlr room")) %>% dim
+
+
+summary(dat2$V2021)
