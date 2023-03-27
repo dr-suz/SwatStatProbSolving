@@ -42,6 +42,20 @@ load(file="38090-0004-Data.rda")
 load(file="38090-0005-Data.rda")
 ```
 
+# About the five data sets 
+
+1. This data set has $10$ variables and $236453$ observational units. The observational units are randomly selected Census households. (If you are in Stat 11, you can't use this data set alone for your final project.)
+
+2. This data set has $452$ variables and $236453$ observational units. The observational units are randomly selected Census households. 
+
+3. This data set has $429$ variables and $270566$ observational units. The observational units are the people within the randomly selected Census households. 
+
+4. This data set has $1260$ variables and $8043$ observational units. The observational units are criminal events witnessed by the people within the randomly selected Census households. 
+
+5. This data set has $1496$ variables and $8043$ observational units. The observational units are criminal events witnessed by the people within the randomly selected Census households. (If you are in Stat 11, you can't use this data set alone for your final project.)
+
+Also, note that many of the variables towards the end of each data set are weighted versions of the other variables. If you are in Stat 11, you can disregard these variables. (They seem to have "WGT" somewhere in the variable name.)
+
 
 # Supplemental data 
 
